@@ -10,12 +10,10 @@ import './App.css';
 const App = () => {
   return (
     <Switch>
-      <div className="App">
-     
-     </div>
+      <div className="App"></div>
     </Switch>
   );
-}
+};
 // function App() {
 //   return (
 //     <div className="App">
