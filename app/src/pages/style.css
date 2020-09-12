@@ -1,7 +1,46 @@
+/** this div surrounds the whole homge page (i.e. everything on screen besides navbar **/
 .home {
+  min-height: 90vh;
+
   background-image: url(../images/Couchplane.png);
-  height: 100%;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  background-position-y: -14vh;
+}
+
+/** this is the div that surrounds "hey" and the learn more button **/
+.text-modal {
+  text-align: left;
+  line-height: 100%;
+  width: 52vh;
+  padding-top: 14vh;
+  margin-left: 9vh;
+
+  font-size: 55px;
+  font-weight: bold;
+  color: white;
+}
+
+/** style of Learn More button **/
+.btn-learnmore {
+  width: 28vh;
+  height: 9vh;
+  margin-top: 4vh;
+  padding-top: 1.5vh;
+  padding-bottom: 1.5vh;
+
+  background-color: #ffd602;
+  border-color: white;
+  border-width: 3px;
+  border-style: solid;
+
+  font-size: 24px;
+  color: white;
+}
+
+/** when you hover over button what happens **/
+.btn-learnmore:hover {
+  background-color: rgba(0, 0, 0, 0.03);
+  border-color: rgba(255, 255, 255, 0.7);
 }

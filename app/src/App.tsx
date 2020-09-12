@@ -1,43 +1,28 @@
 import React from 'react';
 
 import { Home } from 'pages';
+import { Leaderboard } from 'components/leaderboard';
+import { Plan } from 'components/plan';
+import { Transport } from 'components/transport';
+import { Passport } from 'components/passport';
 import { Navbar } from 'components/navbar';
-import { Route, BrowserRouter as Router, Switch } from 'react-router-dom';
+import { Route, Switch } from 'react-router-dom';
 
 import './App.css';
 
-/**
- * landing page
- */
 const App = () => {
   return (
     <Switch>
       <div className="App">
         <Navbar></Navbar>
         <Route exact path="/" component={Home} />
+        <Route path="/leaderboard" component={Leaderboard} />
+        <Route path="/plan" component={Plan} />
+        <Route path="/transport" component={Transport} />
+        <Route path="/passport" component={Passport} />
       </div>
     </Switch>
   );
 };
-// function App() {
-//   return (
-//     <div className="App">
-//       <header className="App-header">
-//         <img src={logo} className="App-logo" alt="logo" />
-//         <p>
-//           Edit <code>src/App.tsx</code> and save to reload.
-//         </p>
-//         <a
-//           className="App-link"
-//           href="https://reactjs.org"
-//           target="_blank"
-//           rel="noopener noreferrer"
-//         >
-//           Learn React
-//         </a>
-//       </header>
-//     </div>
-//   );
-// }
 
 export default App;
