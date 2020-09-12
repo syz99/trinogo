@@ -1,0 +1,7 @@
+.home {
+  background-image: url(../images/Couchplane.png);
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
