@@ -1,10 +1,6 @@
 import React from 'react';
 
-import { Home } from 'pages';
-import { Leaderboard } from 'components/leaderboard';
-import { Plan } from 'components/plan';
-import { Transport } from 'components/transport';
-import { Passport } from 'components/passport';
+import { Home, Leaderboard, Passport, Plan, Transport } from 'pages';
 import { Navbar } from 'components/navbar';
 import { Route, Switch } from 'react-router-dom';
 
