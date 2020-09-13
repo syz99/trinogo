@@ -4,6 +4,11 @@ import { SquareBtn } from 'components/trinogo-ui/';
 import './style.css';
 
 const Home = () => {
+  const handleClick = () => {
+    window.location.href =
+      'https://repentantimpressionabledeclaration.juliaturner.repl.co/';
+  };
+
   return (
     <div>
       <div className="home">
@@ -12,7 +17,7 @@ const Home = () => {
             Hey,<br></br>where are you not off to next?
           </div>
           <div>
-            <SquareBtn text="Learn More" />
+            <SquareBtn text="Learn More" onClickHandler={handleClick} />
           </div>
         </div>
       </div>

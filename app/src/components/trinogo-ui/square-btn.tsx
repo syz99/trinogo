@@ -4,11 +4,16 @@ import './style.css';
 
 interface PublicProps {
   text: string;
+  onClickHandler: () => void;
 }
 
 const SquareBtn = (props: PublicProps) => {
-  const { text } = props;
-  return <button className="btn-learnmore">{text}</button>;
+  const { text, onClickHandler } = props;
+  return (
+    <button onClick={onClickHandler} className="btn-learnmore">
+      {text}
+    </button>
+  );
 };
 
 export default SquareBtn;

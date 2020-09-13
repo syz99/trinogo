@@ -22,17 +22,31 @@ const Navbar = () => {
               <img src={Logo} id="logo" alt="trinogo logo" />
             </a>
           </li>
-          <li className="nav-item">
-            <a href="/leaderboard">leaderboard</a>
+          <li
+            className={
+              activePath === '/leaderboard' ? 'nav-item-active' : 'nav-item'
+            }
+          >
+            <a href="/leaderboard">Leaderboard</a>
           </li>
-          <li className="nav-item">
-            <a href="/plan">plan your (not) trip</a>
+          <li
+            className={activePath === '/plan' ? 'nav-item-active' : 'nav-item'}
+          >
+            <a href="/plan">Plan Your (Not) Trip</a>
           </li>
-          <li className="nav-item">
-            <a href="/transport">transport me</a>
+          <li
+            className={
+              activePath === '/transport' ? 'nav-item-active' : 'nav-item'
+            }
+          >
+            <a href="/transport">Transport Me</a>
           </li>
-          <li className="nav-item">
-            <a href="/passport">my (expired) passport</a>
+          <li
+            className={
+              activePath === '/passport' ? 'nav-item-active' : 'nav-item'
+            }
+          >
+            <a href="/passport">My (Expired) Passport</a>
           </li>
         </ul>
       </nav>

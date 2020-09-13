@@ -13,25 +13,47 @@
 
 .nav-item {
   margin-top: 2.7vh;
-  margin-left: 5vh;
-  margin-right: 5vh;
+  margin-left: 4.5vh;
+  margin-right: 4.5vh;
 
-  font-size: 18px;
+  position: relative;
+
+  font-size: 20px;
   font-weight: bold;
+}
+
+.nav-item-active {
+  margin-top: 2vh;
+  margin-left: 4.5vh;
+  margin-right: 4.5vh;
+  margin-bottom: 1vh;
+
+  position: relative;
+
+  font-size: 20px;
+  font-weight: bold;
+
+  border-bottom: 3px solid #df4b31;
+}
+
+.nav-item:hover {
+  margin-top: 2vh;
 }
 
 .nav-logo {
   margin-left: 8vh;
   margin-right: auto;
+  position: relative;
 }
 
 img {
   width: 130%;
   height: auto;
   margin-top: 1vh;
-  position: relative;
 }
 
-a {
+a,
+a:visited {
   text-decoration: none;
+  color: black;
 }
