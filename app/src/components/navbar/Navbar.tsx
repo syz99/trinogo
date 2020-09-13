@@ -1,6 +1,6 @@
 import React from 'react';
 
-import { Navbar as NavBar, Nav, NavLink as Link } from 'react-bootstrap';
+// import { Navbar as NavBar, Nav, NavLink as Link } from 'react-bootstrap';
 
 import Logo from 'images/logo.png';
 import './style.css';
