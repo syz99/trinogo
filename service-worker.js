@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/trinogo/precache-manifest.44e983be2d43d46e7046c3a40e752bd9.js"
+  "/trinogo/precache-manifest.59e21bd2cfa4b13a2a10a9031684e290.js"
 );
 
 self.addEventListener('message', (event) => {
