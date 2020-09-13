@@ -1,0 +1,22 @@
+/** style of Learn More button **/
+.btn-learnmore {
+  width: 28vh;
+  height: 9vh;
+  margin-top: 4vh;
+  padding-top: 1.5vh;
+  padding-bottom: 1.5vh;
+
+  background-color: #ffd602;
+  border-color: white;
+  border-width: 3px;
+  border-style: solid;
+
+  font-size: 24px;
+  color: white;
+}
+
+/** when you hover over button what happens **/
+.btn-learnmore:hover {
+  background-color: rgba(0, 0, 0, 0.03);
+  border-color: rgba(255, 255, 255, 0.7);
+}

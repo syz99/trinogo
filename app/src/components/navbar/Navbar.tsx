@@ -12,7 +12,7 @@ const Navbar = () => {
         <ul className="primary-nav">
           <li className="left">
             <a href="/">
-              <img src={Logo} id="logo" />
+              <img src={Logo} id="logo" alt="trinogo logo" />
             </a>
           </li>
           <li className="right">

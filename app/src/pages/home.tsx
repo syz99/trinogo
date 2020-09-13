@@ -1,8 +1,6 @@
 import React from 'react';
 
-import { Link } from 'react-router-dom';
-
-// import couchplane from 'images/Couchplane.png';
+import { SquareBtn } from 'components/trinogo-ui/';
 import './style.css';
 
 const Home = () => {
@@ -14,7 +12,7 @@ const Home = () => {
             Hey,<br></br>where are you not off to next?
           </div>
           <div>
-            <button className="btn-learnmore">Learn More</button>
+            <SquareBtn text="Learn More" />
           </div>
         </div>
       </div>
