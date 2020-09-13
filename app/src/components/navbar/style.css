@@ -1,26 +1,7 @@
 .container {
-  min-height: 10vh;
+  min-height: 10vh !important;
+  max-height: 10vh !important;
 }
-
-/* .navbar {
-  display: -webkit-flex;
-  display: flex;
-  list-style-type: none;
-  padding: 0;
-  justify-content: flex-end;
-  width: 100%;
-  position: fixed;
-  z-index: 99;
-}
-
-/** all right aligned nav links **/
-/* .right {
-  color: black;
-  font-size: 22px;
-}
-
-.left {
-  margin-right: 60vh; */
 
 .primary-nav {
   display: -webkit-flex;
@@ -30,6 +11,27 @@
   justify-content: flex-end;
 }
 
-.left {
+.nav-item {
+  margin-top: 2.7vh;
+  margin-left: 5vh;
+  margin-right: 5vh;
+
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.nav-logo {
+  margin-left: 8vh;
   margin-right: auto;
+}
+
+img {
+  width: 130%;
+  height: auto;
+  margin-top: 1vh;
+  position: relative;
+}
+
+a {
+  text-decoration: none;
 }
