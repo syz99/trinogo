@@ -1,4 +1,4 @@
-# Title: Aibo Hierarchical Clustering
+# Title: Trinogo Hierarchical Clustering
 
 # Importing the needed libraries
 import numpy as np
@@ -14,7 +14,7 @@ import scipy.cluster.hierarchy as sch
 dendrogram = sch.dendrogram(sch.linkage(X, method = 'ward'))
 #ward is to minimize the variance of each cluster
 plt.title('Dendrogram')
-plt.xlabel('Coworkers')
+plt.xlabel('Travellers')
 plt.ylabel('Euclidean distances')
 plt.show()
 
@@ -29,8 +29,8 @@ plt.scatter(X[y_hc == 1, 0], X[y_hc == 1, 1], s = 100, c = 'green', label = '2nd
 plt.scatter(X[y_hc == 2, 0], X[y_hc == 2, 1], s = 100, c = 'red', label = '3rd Cluster')
 #plt.scatter(X[y_hc == 3, 0], X[y_hc == 3, 1], s = 100, c = 'blue', label = '4th Cluster')
 
-plt.title('Aibo Matchings')
-plt.xlabel('career goals')
-plt.ylabel('past times')
+plt.title('Matchings')
+plt.xlabel('season')
+plt.ylabel('places to explore')
 plt.legend()
 plt.show()
