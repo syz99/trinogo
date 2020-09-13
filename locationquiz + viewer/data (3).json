@@ -1,0 +1,94 @@
+{
+   "london":{
+      "restaurant":{
+         "name":"Palace",
+         "ratings":"1.7",
+         "img-link":"https://media-cdn.tripadvisor.com/media/photo-s/08/72/2e/e8/palace-restaurant.jpg",
+         "review":"Don't bother going and 'trying'. Terrible service and the food is so expensive for crappy frozen food. Bland and tasteless. The owners should be ashamed to call themselves a cafe at all. It is in a good location, that is the only positive review I can think of.",
+         "link-to-review-site":"https://goo.gl/maps/Mf99ky8DgmjeDt4Y6"
+      },
+      "hotel":{
+         "name":"Hotel Sophia",
+         "ratings":"1.8",
+         "img-link":"https://media-cdn.tripadvisor.com/media/photo-s/01/9b/69/56/hotel-sophia.jpg",
+         "review":"RIDDLED WITH COCKROACHES - YOU CAN EVEN SAY THEM COMING OUT THE BUILDING AND THE STAFF DONT EVEN CARE! FILTHY PLACE",
+         "link-to-review-site":"https://goo.gl/maps/AXtQtyQorsE64sxU7"
+      },
+      "things-to-do":{
+         "name":"Madame Taussaud's",
+         "ratings":"4.4",
+         "img-link":"https://londonvisitors.files.wordpress.com/2015/02/dscn0626.jpg",
+         "review":"I was going to go until they got rid of the One Direction figures. Guess I don't have a reason to go anymore.",
+         "link-to-review-site":"https://goo.gl/maps/3k1TfuH4PPzA8YMr9"
+      }
+   },
+   "new-york":{
+      "restaurant":{
+         "name":"Happy Family Chinese Restaurant",
+         "ratings":"3.0",
+         "img-link":"https://s3-media0.fl.yelpcdn.com/bphoto/jrnGI7VOmklTmwu-jPO8Fw/o.jpg",
+         "review":"Food is “wack” Got the pork lo mein, greasy and just fine in flavor. BBQ ribs, uncooked and flavorless. Service, no such thing. Owner, she tries, but employees are rude and lazy. No wonder was EMPTY on a Friday night.",
+         "link-to-review-site":"https://goo.gl/maps/wVEDADQ4H1DWdPMAA"
+      },
+      "hotel":{
+         "name":"New World Hotel",
+         "ratings":"2.0",
+         "img-link":"https://cf.bstatic.com/images/hotel/max1280x900/107/10764500.jpg",
+         "review":"The dirtiest hotel you will ever stay in, the walls have never been cleaned the bed sheets weren't changed between us and I don't know how many others, filled with hair, bodily fluids, dirt on the walls and zero space, 6ft by 4ft room and a single bed for 2 people not American standard double if you think it's a bargain like us it's not worth it.",
+         "link-to-review-site":"https://goo.gl/maps/eL88X8hc66wEZvvw7"
+      },
+      "things-to-do":{
+         "name":"Times Square",
+         "ratings":"4.7",
+         "img-link":"https://www.nydailynews.com/resizer/_qswsQGGjvadsn1NiOP8gaSSQPs=/1400x0/top/arc-anglerfish-arc2-prod-tronc.s3.amazonaws.com/public/7EV4B2KUZXAOIY7ODWRD5CVGNA.jpg",
+         "review":"This cliche tourist trap not only is way too crowded but smells literally of urine everywhere. When I say that you can't bring your kids here is because there are street performers that harass you for a picture and some of them are naked and half naked, plus the fact that everyone smokes freely anywhere and so you and your kids will breathe that second hand smoke - keep that in mind next time you bring your kids to get that typical and expected photo at times square.",
+         "link-to-review-site":"https://goo.gl/maps/Xqrx1utCQ5fFKgQXA"
+      }
+   },
+   "tokyo":{
+      "restaurant":{
+         "name":"Devi Corner Shinagawa ten",
+         "ratings":"1",
+         "img-link":"https://media-cdn.tripadvisor.com/media/photo-s/12/be/7c/90/photo1jpg.jpg",
+         "review":"it was absolutely crappy it suck food tasted like trash i wanted to die after eating that crap like holly carp it was bad",
+         "link-to-review-site":"https://www.tripadvisor.ca/Restaurant_Review-g14131019-d1678031-Reviews-Devi_Corner_Shinagawa_ten-Takanawa_Minato_Tokyo_Tokyo_Prefecture_Kanto.html"
+      },
+      "hotel":{
+         "name":"Capsule Hotel Capsule Hotel Anshin Oyado Shinbashi",
+         "ratings":"1",
+         "img-link":"https://media-cdn.tripadvisor.com/media/photo-s/01/9b/69/56/hotel-sophia.jpg",
+         "review":"I couldn't sleep because of the noise of people staying on the same floor (footsteps, snoring, opening and closing of doors, etc.)",
+         "link-to-review-site":"https:https://www.booking.com/hotel/jp/capsule-anshin-oyado-shinbashi.html?aid=309654;label=hotels-english-en-caus-1fcy5kbpHZBGrr9FcWEvqQS436489658382%3Apl%3Ata%3Ap1%3Ap2%3Aac%3Aap%3Aneg%3Afi%3Atikwd-118598409%3Alp1002464%3Ali%3Adec%3Adm%3Appccp%3DUmFuZG9tSVYkc2RlIyh9YcsZ-Id2vkzIfTmYhvC5HOg;sid=a8edbce496de76917db726c1aa93d918;all_sr_blocks=119337604_184448111_0_0_0;checkin=2020-09-17;checkout=2020-10-14;dest_id=-246227;dest_type=city;dist=0;group_adults=2;group_children=0;hapos=1;highlighted_blocks=119337604_184448111_0_0_0;hpos=1;no_rooms=1;room1=A%2CA;sb_price_type=total;sr_order=class;sr_pri_blocks=119337604_184448111_0_0_0__25987499;srepoch=1599945102;srpvid=7b0795069d940004;type=total;ucfs=1&#hotelTmpl"
+      },
+      "things-to-do":{
+         "name":"Konzo-ji Temple",
+         "ratings":"2",
+         "img-link":"https://media-cdn.tripadvisor.com/media/photo-s/08/72/2e/e8/palace-restaurant.jpg",
+         "review":"The toilets are dirty and it is difficult to visit the grounds",
+         "link-to-review-site":"https://www.tripadvisor.ca/Attraction_Review-g1066451-d17713867-Reviews-Konzo_ji_Temple-Minato_Tokyo_Tokyo_Prefecture_Kanto.html"
+      }
+   },
+   "rio de janeiro":{
+      "restaurant":{
+         "name":"Bazzar Restaurante",
+         "ratings":"1",
+         "img-link":"https://media-cdn.tripadvisor.com/media/photo-s/0e/cc/69/23/bazaar.jpg",
+         "review":"Two of the three main courses were so salty and overcooked they were uneatable and were sent back. One was replaced. While all this was going on the Mâitre D. was dancing around making sure he was not involved.",
+         "link-to-review-site":"https://www.tripadvisor.ca/Restaurant_Review-g303506-d1138452-Reviews-Bazzar_Restaurante-Rio_de_Janeiro_State_of_Rio_de_Janeiro.html#REVIEWS"
+      },
+      "hotel":{
+         "name":"Ibis Copacabana Posto 5",
+         "ratings":"1",
+         "img-link":"https://cf.bstatic.com/images/hotel/max1024x768/172/172523958.jpg",
+         "review":"the room gets a garlic smell from the air conditioning at nights and breakfast is poor and badly served, and some of the fruit is rotten.",
+         "link-to-review-site":"tripadvisor.ca/Hotel_Review-g303506-d8767307-Reviews-Ibis_Copacabana_Posto_5-Rio_de_Janeiro_State_of_Rio_de_Janeiro.html#REVIEWS"
+      },
+      "things-to-do":{
+         "name":"Sugar Loaf Mou",
+         "ratings":"1",
+         "img-link":"https://media-cdn.tripadvisor.com/media/photo-s/08/72/2e/e8/palace-restaurant.jpg",
+         "review":"Get serious.. Just a crime set up for some people how want to get rich. Shame on the local politics to accept these prices to get in..  Very sad!!",
+         "link-to-review-site":"https://goo.gl/maps/Mf99ky8DgmjeDt4Y6"
+      }
+   }
+}

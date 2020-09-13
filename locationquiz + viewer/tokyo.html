@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Travelling Quiz</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link href="./style.css" rel="stylesheet" type="text/css">
+    <link href="./cards.css" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="script.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Yrsa" rel="stylesheet">
+  </head>
+  <body>
+    <img src="./navbar1.png" alt="Girl in a jacket">
+    <h1>Tokyo</h1>
+    <div class="card">
+    <div class="container">
+      <div class = "restaurant">
+      <h4 style="text-align:left;"><b>
+        The Palace
+        <span style="float:right;">
+          1.7 ⭐️
+        </span>
+      </b></h4>
+
+      <div class="row">
+        <div class = "leftbutton">
+          <button class="btn btn-secondary btn-sm" type="moreInfo" onclick = "showMenu('moreInfo1')">MORE INFO</button>
+        </div>
+        <div class = "rightbutton">
+          <button class="btn btn-secondary btn-sm" type="getdirections" onclick = "showMenu('getDirections1')">GET IMAGES</button>
+        </div>
+        <a href = "">Review Site</a>
+          <div id="moreInfo1" class="dropdown-content">
+          <p>
+            Review: Don't bother going and 'trying'. Terrible service and the food is so expensive for crappy frozen food. Bland and tasteless. The owners should be ashamed to call themselves a cafe at all. It is in a good location, that is the only positive review I can think of.
+          </p>
+          </div>
+          <p id="getDirections1" class="dropdown-content">
+              <img src = "https://media-cdn.tripadvisor.com/media/photo-s/08/72/2e/e8/palace-restaurant.jpg"/>
+          </p>
+        </div>
+      </div>
+    </div>
+    </div>
+    
+    <div class="card">
+    <div class="container">
+      <div class="hotel">
+      <h4 style="text-align:left;"><b>
+        Hotel Sophia
+        <span style="float:right;">
+          1.8 ⭐️
+        </span>
+      </b></h4>
+
+      <div class="row">
+        <div class = "leftbutton">
+          <button class="btn btn-secondary btn-sm" type="moreInfo" onclick = "showMenu('moreInfo2')">MORE INFO</button>
+        </div>
+        <div class = "rightbutton">
+          <button class="btn btn-secondary btn-sm" type="getdirections" onclick = "showMenu('getDirections2')">GET IMAGES</button>
+        </div>
+        <a href = "">Review Site</a>
+          <div id="moreInfo2" class="dropdown-content">
+          <p>
+            Review: RIDDLED WITH COCKROACHES - YOU CAN EVEN SAY THEM COMING OUT THE BUILDING AND THE STAFF DONT EVEN CARE! FILTHY PLACE.
+          </p>
+          </div>
+          <p id="getDirections2" class="dropdown-content">
+              <img src = "https://media-cdn.tripadvisor.com/media/photo-s/01/9b/69/56/hotel-sophia.jpg"/>
+          </p>
+        </div>
+      </div>
+      </div>
+    </div>
+
+        <div class="card">
+    <div class="container">
+      <div class = "attraction">
+      <h4 style="text-align:left;"><b>
+        Madame Taussaud's
+        <span style="float:right;">
+          1.8 ⭐️
+        </span>
+      </b></h4>
+
+      <div class="row">
+        <div class = "leftbutton">
+          <button class="btn btn-secondary btn-sm" type="moreInfo" onclick = "showMenu('moreInfo3')">MORE INFO</button>
+        </div>
+        <div class = "rightbutton">
+          <button class="btn btn-secondary btn-sm" type="getdirections" onclick = "showMenu('getDirections3')">GET IMAGES</button>
+        </div>
+        <div class = "extrabutton">
+          <a href = "">Review Site</a>
+        </div>
+
+          <div id="moreInfo3" class="dropdown-content">
+          <p>
+            Review: I was going to go until they got rid of the One Direction figures. Guess I don't have a reason to go anymore.
+          </p>
+          </div>
+          <p id="getDirections3" class="dropdown-content">
+              <img src = "https://londonvisitors.files.wordpress.com/2015/02/dscn0626.jpg"/>
+          </p>
+        </div>
+      </div>
+    </div>
+    </div>
+
+    <script src="./dropDown.js"></script>
+  </body>
+</html>

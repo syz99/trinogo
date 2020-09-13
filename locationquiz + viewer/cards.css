@@ -1,0 +1,114 @@
+h1 {
+text-align: center;
+padding: 10px;
+}
+
+.container {
+  background-color: black;
+  border-radius: 20px;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.5s;
+  width: 80%;
+  border-radius: 25px;
+  margin: 0px 0px 20px 0px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* On mouse-over, add a deeper shadow */
+.card:hover {
+  box-shadow: 5px 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.langbar {
+  background-color: #9B9B9B;
+  text-align: right;
+  color: white;
+  padding: 25px 20px;
+  margin: 0px 0px 20px 0px;
+  border: 0px;
+  font-family: "Josefin Sans";
+}
+
+
+
+/* Add some padding inside the card container */
+
+.container .row .moreinfo {
+  background: grey;
+  border-radius: 25px;
+  padding: 0px 20px;
+}
+
+.container .row .getdirections {
+  background: grey;
+  border-radius: 25px;
+  padding: 0px 20px;
+  margin: 0px 20px;
+}
+
+.container .row .leftbutton {
+  margin: 0px 0px 10px 20px;
+}
+.container .row .rightbutton {
+    margin: 0px 0px 0px 10px;
+}
+
+.dropdown-content {
+  display: none;
+  background-color: white;
+  overflow: none;
+  z-index: 999;
+  color: black;
+  flex-direction: column;
+}
+
+.show {
+  display: block;
+}
+
+.hide {
+  display: none;
+}
+
+h4 {
+padding: 10px;
+}
+
+.dropdown-content {
+  padding: 10px;
+  margin: 10px;
+  text-align: center;
+  items-align: center;
+}
+
+.dropdown-content img {
+  border-radius: 10px;
+  border: 5px;
+}
+
+a {
+  padding: 0px 20px;
+  margin: 0px 20px;
+  border-radius: 25px;
+  text-decoration: none;
+  color: grey;
+}
+
+.restaurant {
+  background-color: #C1E0DB;
+  padding: 5px 16px;
+}
+
+.hotel {
+  background-color: #F9FF7C;
+  padding: 5px 16px;
+}
+
+.attraction {
+  background-color: #FF7C7C;
+  padding: 5px 16px;
+}

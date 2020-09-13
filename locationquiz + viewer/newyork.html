@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Travelling Quiz</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link href="./style.css" rel="stylesheet" type="text/css">
+    <link href="./cards.css" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="script.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Yrsa" rel="stylesheet">
+  </head>
+  <body>
+    <img src="./navbar1.png" alt="Girl in a jacket">
+    <h1>New York</h1>
+    <div class="card">
+    <div class="container">
+      <div class = "restaurant">
+      <h4 style="text-align:left;"><b>
+        Happy Family Chinese Restaurant
+        <span style="float:right;">
+          3.0 ⭐️
+        </span>
+      </b></h4>
+
+      <div class="row">
+        <div class = "leftbutton">
+          <button class="btn btn-secondary btn-sm" type="moreInfo" onclick = "showMenu('moreInfo1')">MORE INFO</button>
+        </div>
+        <div class = "rightbutton">
+          <button class="btn btn-secondary btn-sm" type="getdirections" onclick = "showMenu('getDirections1')">GET IMAGES</button>
+        </div>
+        <a href = "https://goo.gl/maps/wVEDADQ4H1DWdPMAA">Review Site</a>
+          <div id="moreInfo1" class="dropdown-content">
+          <p>
+            Food is “wack” Got the pork lo mein, greasy and just fine in flavor. BBQ ribs, uncooked and flavorless. Service, no such thing. Owner, she tries, but employees are rude and lazy. No wonder was EMPTY on a Friday night.
+          </p>
+          </div>
+          <p id="getDirections1" class="dropdown-content">
+              <img src = "https://s3-media0.fl.yelpcdn.com/bphoto/jrnGI7VOmklTmwu-jPO8Fw/o.jpg"/>
+          </p>
+        </div>
+      </div>
+    </div>
+    </div>
+    
+    <div class="card">
+    <div class="container">
+      <div class="hotel">
+      <h4 style="text-align:left;"><b>
+        New World Hotel
+        <span style="float:right;">
+          2.0 ⭐️
+        </span>
+      </b></h4>
+
+      <div class="row">
+        <div class = "leftbutton">
+          <button class="btn btn-secondary btn-sm" type="moreInfo" onclick = "showMenu('moreInfo2')">MORE INFO</button>
+        </div>
+        <div class = "rightbutton">
+          <button class="btn btn-secondary btn-sm" type="getdirections" onclick = "showMenu('getDirections2')">GET IMAGES</button>
+        </div>
+        <a href = "https://goo.gl/maps/eL88X8hc66wEZvvw7">Review Site</a>
+          <div id="moreInfo2" class="dropdown-content">
+          <p>
+            Review: The dirtiest hotel you will ever stay in, the walls have never been cleaned the bed sheets weren't changed between us and I don't know how many others, filled with hair, bodily fluids, dirt on the walls and zero space, 6ft by 4ft room and a single bed for 2 people not American standard double if you think it's a bargain like us it's not worth it.
+          </p>
+          </div>
+          <p id="getDirections2" class="dropdown-content">
+              <img src = "https://cf.bstatic.com/images/hotel/max1280x900/107/10764500.jpg"/>
+          </p>
+        </div>
+      </div>
+      </div>
+    </div>
+
+        <div class="card">
+    <div class="container">
+      <div class = "attraction">
+      <h4 style="text-align:left;"><b>
+        Times Square
+        <span style="float:right;">
+          3.2 ⭐️
+        </span>
+      </b></h4>
+
+      <div class="row">
+        <div class = "leftbutton">
+          <button class="btn btn-secondary btn-sm" type="moreInfo" onclick = "showMenu('moreInfo3')">MORE INFO</button>
+        </div>
+        <div class = "rightbutton">
+          <button class="btn btn-secondary btn-sm" type="getdirections" onclick = "showMenu('getDirections3')">GET IMAGES</button>
+        </div>
+        <div class = "extrabutton">
+          <a href = "https://goo.gl/maps/Xqrx1utCQ5fFKgQXA">Review Site</a>
+        </div>
+
+          <div id="moreInfo3" class="dropdown-content">
+          <p>
+            Review: This cliche tourist trap not only is way too crowded but smells literally of urine everywhere. When I say that you can't bring your kids here is because there are street performers that harass you for a picture and some of them are naked and half naked, plus the fact that everyone smokes freely anywhere and so you and your kids will breathe that second hand smoke - keep that in mind next time you bring your kids to get that typical and expected photo at times square.
+          </p>
+          </div>
+          <p id="getDirections3" class="dropdown-content">
+              <img src = "https://www.nydailynews.com/resizer/_qswsQGGjvadsn1NiOP8gaSSQPs=/1400x0/top/arc-anglerfish-arc2-prod-tronc.s3.amazonaws.com/public/7EV4B2KUZXAOIY7ODWRD5CVGNA.jpg"/>
+          </p>
+        </div>
+      </div>
+    </div>
+    </div>
+
+    <script src="./dropDown.js"></script>
+  </body>
+</html>
